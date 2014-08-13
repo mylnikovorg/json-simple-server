@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="kotlin-compiler">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/lib/kotlin-plugin/Kotlin/kotlinc/lib/kotlin-compiler-0.6.1603.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

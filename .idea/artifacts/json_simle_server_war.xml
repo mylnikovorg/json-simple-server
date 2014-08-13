@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="json-simle-server:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="json-simle-server.war">
+      <element id="artifact" artifact-name="json-simle-server:war exploded" />
+    </root>
+  </artifact>
+</component>
