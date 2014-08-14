@@ -1,7 +1,5 @@
 package com.springapp.mvc;
 
-import org.codehaus.jackson.node.ArrayNode;
-import org.codehaus.jackson.node.JsonNodeFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -33,11 +31,11 @@ public class HelloController {
             e.printStackTrace();
         }*/
         System.out.println(in.getConsoleArgs());
-        ArrayNode jsonArray = new ArrayNode(JsonNodeFactory.instance);
-        org.codehaus.jackson.node.ObjectNode jsonObject = jsonArray.addObject();
-
-        jsonObject.put("text", in.getText());
-        jsonObject.put("consoleArgs", in.getConsoleArgs());
+//        ArrayNode jsonArray = new ArrayNode(JsonNodeFactory.instance);
+//        org.codehaus.jackson.node.ObjectNode jsonObject = jsonArray.addObject();
+//
+//        jsonObject.put("text", in.getText());
+//        jsonObject.put("consoleArgs", in.getConsoleArgs());
 
         return in;
     }
